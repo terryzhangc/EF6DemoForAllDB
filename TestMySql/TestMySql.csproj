@@ -55,6 +55,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Migrations\201707160331582_AddUserTable.cs" />
+    <Compile Include="Migrations\201707160331582_AddUserTable.Designer.cs">
+      <DependentUpon>201707160331582_AddUserTable.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -68,6 +72,11 @@
       <Project>{e7999e8a-8bce-4806-9ded-21041a014c78}</Project>
       <Name>Domain</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201707160331582_AddUserTable.resx">
+      <DependentUpon>201707160331582_AddUserTable.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
