@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSqlite", "TestSqlite\Te
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMySql", "TestMySql\TestMySql.csproj", "{287E47C5-8940-4452-8941-02FBFEBD8AEA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLiteDB", "TestLiteDB\TestLiteDB.csproj", "{139CF3F5-4C03-465E-B99F-8ED7ABDDB9DB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{287E47C5-8940-4452-8941-02FBFEBD8AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{287E47C5-8940-4452-8941-02FBFEBD8AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{287E47C5-8940-4452-8941-02FBFEBD8AEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{139CF3F5-4C03-465E-B99F-8ED7ABDDB9DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{139CF3F5-4C03-465E-B99F-8ED7ABDDB9DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{139CF3F5-4C03-465E-B99F-8ED7ABDDB9DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{139CF3F5-4C03-465E-B99F-8ED7ABDDB9DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
